@@ -9,6 +9,8 @@ sap.ui.controller("zcombo.Departments", {
         var oModel = new sap.ui.model.json.JSONModel();
         oModel.loadData("model/employeeData.json");
         this.getView().setModel(oModel);
+        
+        this.getView().byId("idCombo").bindElement("/departments");
 		
 	},
 

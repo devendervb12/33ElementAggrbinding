@@ -2,7 +2,7 @@
 		controllerName="zcombo.Departments" xmlns:html="http://www.w3.org/1999/xhtml">
 	<Page title="Title">
 		<content>
-	         <ComboBox binding="{/departments}">
+	         <ComboBox id="idcombo">
 	            <items>
 	               <core:Item text="{0/dept}"/>
 	               <core:Item text="{1/dept}"/>
