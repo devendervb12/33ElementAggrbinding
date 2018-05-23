@@ -1,0 +1,13 @@
+{
+  "departments" : [
+     {
+       "dept" : "SAP"
+     },
+     {
+       "dept" : "Oracle"
+     },
+     {
+       "dept" : "Java"
+     }
+  ]
+}
